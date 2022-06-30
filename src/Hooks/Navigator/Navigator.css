@@ -7,9 +7,9 @@
 }
 
 .nav {
-    border-bottom: 1px solid blue;
+    border-bottom: 3px solid #7252a2;
 }
 
 .nav a:hover {
-    color: blue;
+    color: #7252a2;
 }

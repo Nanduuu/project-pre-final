@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import {  } from 'react-icons/fc';
+import { AiOutlineLogout, AiOutlineUser } from 'react-icons/ai';
 import './Info.css';
 
 
@@ -16,9 +16,9 @@ const Info = () => {
                 <Row className='p-2 '>
                     <Col className='text-left'>Technical Help - 9945215941</Col>
                     <Col className='text-right'>
-                        Welcome, Admin  
+                            Welcome,   <AiOutlineUser /> Admin  
                         <span className='logout'> 
-                         Logout 
+                        <AiOutlineLogout /> Logout 
                         </span>
                         
                     </Col>

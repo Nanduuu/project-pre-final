@@ -10,7 +10,7 @@ const Navigator = () => {
 
     return(
         <Container className="mt-3 ">
-                <div className='nav text-center'>
+                <div className='nav text-center fs-5'>
                         <Link to="/"> Dashboard</Link>
                         <Link to="/"> Admission</Link>
                         <Link to="/"> Fee Payment</Link>

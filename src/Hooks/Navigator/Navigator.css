@@ -1,0 +1,15 @@
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.nav {
+    border-bottom: 1px solid blue;
+}
+
+.nav a:hover {
+    color: blue;
+}

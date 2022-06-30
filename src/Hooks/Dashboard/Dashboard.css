@@ -1,0 +1,28 @@
+.my-bg-box {
+    background-color: #7252a2;
+    color: white;
+    position: relative;
+    width: 30%;
+    padding: 0px;
+    margin-top: 30px !important;
+}
+
+.my-bg-box:hover {
+    cursor: pointer;
+}
+
+.my-bg-box:after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0px;
+    position: absolute;
+    bottom: 0px;
+    background: transparent;
+    transition: width 2s ease, background-color 2s ease;
+}
+
+.my-bg-box:hover:after {
+    width: 100%;
+    background: white;
+}
